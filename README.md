@@ -2,6 +2,10 @@
 
 ### Implement Azure Policy as Code with GitHub
 
+Azure Policy Pillars
+
+![](https://learn.microsoft.com/en-us/training/wwl-azure/enterprise-governance/media/az500-azure-policy-325dd21e.png)
+
 Reference: [Tutorial](https://learn.microsoft.com/en-us/azure/governance/policy/tutorials/policy-as-code-github)
 
 Create service principal with a secret, follow the steps to configure Azure Service Principal with a secret.
