@@ -1,6 +1,8 @@
-# DevSquad Accelerator: Azure Policy
+# DevSquad Accelerator: Policy as Code
 
-### Configure deployment credentials
+### Implement Azure Policy as Code with GitHub
+
+Reference: [Tutorial](https://learn.microsoft.com/en-us/azure/governance/policy/tutorials/policy-as-code-github)
 
 Create service principal with a secret, follow the steps to configure Azure Service Principal with a secret.
 
@@ -24,3 +26,10 @@ Create service principal with a secret, follow the steps to configure Azure Serv
     (...)
   }
   ```
+
+Resources:
+- [Overview of Azure Policy](https://learn.microsoft.com/en-us/azure/governance/policy/overview)
+- [Intro to Azure Policy](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-policy/)
+- [Design an enterprise governance strategy](https://learn.microsoft.com/en-us/training/modules/enterprise-governance/)
+- [Build a cloud governance strategy on Azure](https://learn.microsoft.com/en-us/training/modules/build-cloud-governance-strategy-azure/)
+- [Design Azure Policy as Code workflows](https://learn.microsoft.com/en-us/azure/governance/policy/concepts/policy-as-code)
