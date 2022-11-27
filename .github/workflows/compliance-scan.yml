@@ -1,9 +1,6 @@
 name: Compliance Scan
 
-on:
-  schedule:
-    - cron:  '0 8 * * *'  # runs every morning 8am
-  workflow: dispatch 
+on: workflow_dispatch 
     
 jobs:
   assess-policy-compliance:
