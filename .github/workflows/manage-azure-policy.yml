@@ -33,4 +33,4 @@ jobs:
         paths: |
           policies/policy1/policy_definition/*
         assignments:  |
-          azurepolicy.assing-parm.json
+          azurepolicy.json
