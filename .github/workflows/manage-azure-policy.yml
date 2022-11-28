@@ -31,6 +31,4 @@ jobs:
       uses: azure/manage-azure-policy@v0
       with:
         paths: |
-          policies/policy1/policy_definition/*
-        assignments:  |
-          azurepolicy.json
+          policies/policy2/**
