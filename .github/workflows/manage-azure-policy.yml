@@ -31,6 +31,6 @@ jobs:
       uses: azure/manage-azure-policy@v0
       with:
         paths: |
-          policies/policy1/azurepolicy.json
+          policies/policy1/policy_definition/*
         assignments:  |
-          policies/policy/azurepolicy.assing-parm.json
+          azurepolicy.assing-parm.json
