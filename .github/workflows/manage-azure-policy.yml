@@ -25,10 +25,12 @@ jobs:
     - name: Login to Azure
       uses: azure/login@v1
       with:
-        creds: ${{secrets.AZURE_CREDENTIALS_36ec8164}}
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
         allow-no-subscriptions: true
     - name: Create or Update Azure Policies
       uses: azure/manage-azure-policy@v0
       with:
         paths: |
-          policies/policy1/**
+          policies/policy1/azurepolicy.json
+        assignments:  |
+          policies/policy/azurepolicy.assing-parm.json
