@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Azure Policies
 
-name: Policy Definition (Create)
+name: 1 Policy Definition (Create)
 
 # Controls when the workflow will run
 on: workflow_dispatch
